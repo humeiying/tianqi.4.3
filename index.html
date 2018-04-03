@@ -567,7 +567,7 @@
         //得到城市天气函数
         function getWeather(city){
             $.ajax({
-                url:"http://api.jisuapi.com/weather/query?appkey=3a45ebad21bc6b8f&city="+city,
+                url:"http://api.jisuapi.com/weather/query?appkey=3a45ebad21bc6b8f&city=太原",
                 dataType:"jsonp",
                 success:function(r){
                     $(".now_city_name").html(city);
